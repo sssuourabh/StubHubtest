@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6548912F28A1676300F7D450 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6548912E28A1676300F7D450 /* FilterView.swift */; };
+		65A23292289FBB98001EBC33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A23291289FBB98001EBC33 /* AppDelegate.swift */; };
+		65A23294289FBB98001EBC33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A23293289FBB98001EBC33 /* SceneDelegate.swift */; };
+		65A2329B289FBB9C001EBC33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65A2329A289FBB9C001EBC33 /* Assets.xcassets */; };
+		65A2329E289FBB9C001EBC33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65A2329C289FBB9C001EBC33 /* LaunchScreen.storyboard */; };
+		65A232A7289FBDD5001EBC33 /* StubData.json in Resources */ = {isa = PBXBuildFile; fileRef = 65A232A6289FBDD5001EBC33 /* StubData.json */; };
+		65A232A928A02446001EBC33 /* StubHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A232A828A02446001EBC33 /* StubHub.swift */; };
+		65A232AC28A02682001EBC33 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A232AB28A02682001EBC33 /* ListViewController.swift */; };
+		65A232B228A03B5D001EBC33 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A232B128A03B5D001EBC33 /* ListViewModel.swift */; };
+		65A232B428A04863001EBC33 /* ListStubBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A232B328A04863001EBC33 /* ListStubBuilder.swift */; };
+		65A232B728A0488A001EBC33 /* StubSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A232B628A0488A001EBC33 /* StubSearchService.swift */; };
+		65A232BA28A04BE9001EBC33 /* StubListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A232B928A04BE9001EBC33 /* StubListCell.swift */; };
+		DBF1BFFA28A12DC300898AC2 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF1BFF928A12DC300898AC2 /* FilterViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6548912E28A1676300F7D450 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		65A2328E289FBB98001EBC33 /* StubHubSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StubHubSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A23291289FBB98001EBC33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65A23293289FBB98001EBC33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		65A2329A289FBB9C001EBC33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65A2329D289FBB9C001EBC33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65A2329F289FBB9C001EBC33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65A232A6289FBDD5001EBC33 /* StubData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = StubData.json; sourceTree = "<group>"; };
+		65A232A828A02446001EBC33 /* StubHub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubHub.swift; sourceTree = "<group>"; };
+		65A232AB28A02682001EBC33 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		65A232B128A03B5D001EBC33 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		65A232B328A04863001EBC33 /* ListStubBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListStubBuilder.swift; sourceTree = "<group>"; };
+		65A232B628A0488A001EBC33 /* StubSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubSearchService.swift; sourceTree = "<group>"; };
+		65A232B928A04BE9001EBC33 /* StubListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubListCell.swift; sourceTree = "<group>"; };
+		DBF1BFF928A12DC300898AC2 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65A2328B289FBB98001EBC33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65A23285289FBB97001EBC33 = {
+			isa = PBXGroup;
+			children = (
+				65A23290289FBB98001EBC33 /* StubHubSearch */,
+				65A2328F289FBB98001EBC33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65A2328F289FBB98001EBC33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65A2328E289FBB98001EBC33 /* StubHubSearch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65A23290289FBB98001EBC33 /* StubHubSearch */ = {
+			isa = PBXGroup;
+			children = (
+				65A232B328A04863001EBC33 /* ListStubBuilder.swift */,
+				65A232B528A04875001EBC33 /* Service */,
+				65A232B028A03B4B001EBC33 /* ViewModel */,
+				65A232AA28A02660001EBC33 /* View */,
+				65A232A5289FBCFF001EBC33 /* Models */,
+				65A23291289FBB98001EBC33 /* AppDelegate.swift */,
+				65A23293289FBB98001EBC33 /* SceneDelegate.swift */,
+				65A2329A289FBB9C001EBC33 /* Assets.xcassets */,
+				65A2329C289FBB9C001EBC33 /* LaunchScreen.storyboard */,
+				65A2329F289FBB9C001EBC33 /* Info.plist */,
+			);
+			path = StubHubSearch;
+			sourceTree = "<group>";
+		};
+		65A232A5289FBCFF001EBC33 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				65A232A6289FBDD5001EBC33 /* StubData.json */,
+				65A232A828A02446001EBC33 /* StubHub.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		65A232AA28A02660001EBC33 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DBF1BFF828A12DAF00898AC2 /* FilterVIew */,
+				65A232B828A04BCE001EBC33 /* UITableViewCell */,
+				65A232AB28A02682001EBC33 /* ListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		65A232B028A03B4B001EBC33 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				65A232B128A03B5D001EBC33 /* ListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		65A232B528A04875001EBC33 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				65A232B628A0488A001EBC33 /* StubSearchService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		65A232B828A04BCE001EBC33 /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				65A232B928A04BE9001EBC33 /* StubListCell.swift */,
+			);
+			path = UITableViewCell;
+			sourceTree = "<group>";
+		};
+		DBF1BFF828A12DAF00898AC2 /* FilterVIew */ = {
+			isa = PBXGroup;
+			children = (
+				DBF1BFF928A12DC300898AC2 /* FilterViewController.swift */,
+				6548912E28A1676300F7D450 /* FilterView.swift */,
+			);
+			path = FilterVIew;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65A2328D289FBB98001EBC33 /* StubHubSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65A232A2289FBB9C001EBC33 /* Build configuration list for PBXNativeTarget "StubHubSearch" */;
+			buildPhases = (
+				65A2328A289FBB98001EBC33 /* Sources */,
+				65A2328B289FBB98001EBC33 /* Frameworks */,
+				65A2328C289FBB98001EBC33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StubHubSearch;
+			productName = StubHubSearch;
+			productReference = 65A2328E289FBB98001EBC33 /* StubHubSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65A23286289FBB97001EBC33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					65A2328D289FBB98001EBC33 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 65A23289289FBB97001EBC33 /* Build configuration list for PBXProject "StubHubSearch" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65A23285289FBB97001EBC33;
+			productRefGroup = 65A2328F289FBB98001EBC33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65A2328D289FBB98001EBC33 /* StubHubSearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65A2328C289FBB98001EBC33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A2329E289FBB9C001EBC33 /* LaunchScreen.storyboard in Resources */,
+				65A232A7289FBDD5001EBC33 /* StubData.json in Resources */,
+				65A2329B289FBB9C001EBC33 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65A2328A289FBB98001EBC33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A232B428A04863001EBC33 /* ListStubBuilder.swift in Sources */,
+				65A232BA28A04BE9001EBC33 /* StubListCell.swift in Sources */,
+				65A232A928A02446001EBC33 /* StubHub.swift in Sources */,
+				DBF1BFFA28A12DC300898AC2 /* FilterViewController.swift in Sources */,
+				65A232B228A03B5D001EBC33 /* ListViewModel.swift in Sources */,
+				65A23292289FBB98001EBC33 /* AppDelegate.swift in Sources */,
+				65A232AC28A02682001EBC33 /* ListViewController.swift in Sources */,
+				65A23294289FBB98001EBC33 /* SceneDelegate.swift in Sources */,
+				6548912F28A1676300F7D450 /* FilterView.swift in Sources */,
+				65A232B728A0488A001EBC33 /* StubSearchService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65A2329C289FBB9C001EBC33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65A2329D289FBB9C001EBC33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65A232A0289FBB9C001EBC33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65A232A1289FBB9C001EBC33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65A232A3289FBB9C001EBC33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StubHubSearch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sourabh..StubHubSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65A232A4289FBB9C001EBC33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StubHubSearch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sourabh..StubHubSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65A23289289FBB97001EBC33 /* Build configuration list for PBXProject "StubHubSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A232A0289FBB9C001EBC33 /* Debug */,
+				65A232A1289FBB9C001EBC33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65A232A2289FBB9C001EBC33 /* Build configuration list for PBXNativeTarget "StubHubSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A232A3289FBB9C001EBC33 /* Debug */,
+				65A232A4289FBB9C001EBC33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65A23286289FBB97001EBC33 /* Project object */;
+}
